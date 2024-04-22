@@ -1,0 +1,7 @@
+windows:
+  installs:
+    cmd: scoop install {{ name }} -y
+
+linux|darwin:
+  installs:
+    cmd: apt-get install {{ name }} -y

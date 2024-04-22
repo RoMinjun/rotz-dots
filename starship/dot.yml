@@ -1,0 +1,20 @@
+global:
+  links:
+    starship.toml: ~/.config/starship.toml
+
+windows:
+  installs:
+    cmd: >-
+      scoop install starship
+      Add-Content $PROFILE "`nInvoke-Expression (&starship init powershell)"
+    depends:
+      - powershell
+      - scoop
+
+linux|darwin:
+  installs:
+    cmd: >-
+      curl -sS https://starship.rs/install.sh | sh
+      echo 'eval "$(starship init zsh)"' >> ~/.zshrc
+#    depends:
+#      - zsh

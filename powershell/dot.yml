@@ -1,0 +1,6 @@
+windows:
+  links:
+    Microsoft.PowerShell_profile.ps1: $PROFILE
+
+linux|darwin:
+  installs: false

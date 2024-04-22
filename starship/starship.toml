@@ -1,0 +1,78 @@
+format = """
+$username\
+$hostname\
+$directory\
+$docker_context\
+$git_branch\
+$git_state\
+$git_status\
+$git_metrics\
+$fill\
+$cmd_duration $battery $time\
+$line_break\
+$shell\
+$character"""
+
+[shell]
+style = "bold #31748f"
+zsh_indicator = 'zsh' 
+powershell_indicator = '_'
+disabled = false
+
+[username]
+show_always = true
+style_user = "bold #eb6f92"
+format = '[$user]($style) '
+
+[battery]
+full_symbol = " "
+charging_symbol = " "
+discharging_symbol = " "
+unknown_symbol = " "
+empty_symbol = " "
+
+[[battery.display]]
+threshold = 100
+
+[docker_context]
+format = "$symbol$context($style) "
+
+[fill]
+symbol = " "
+
+[directory]
+style = "bold italic #31748f"
+read_only = " "
+format = 'in [$path]($style)[$read_only]($style)  '
+truncation_length = 4
+truncate_to_repo = false
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
+
+[git_branch]
+style = 'bold #eb6f92'
+format = "[$symbol$branch]($style) "
+
+[git_status]
+format = '([\[$all_status$ahead_behind\]]($style) )'
+
+[git_state]
+format = '\([$state( $progress_current/$progress_total)]($style)\) '
+
+[git_metrics]
+disabled = false
+
+[cmd_duration]
+style = 'bold #3e8fb0'
+format = "[$duration]($style)"
+
+[time]
+disabled = false
+style = 'bold italic #e0def4'
+format = "[$time]($style)"
+
+[hostname]
+style = 'bold #9ccfd8'
+format = 'on [$hostname]($style) '

@@ -1,0 +1,13 @@
+windows:
+  installs:
+    cmd: scoop install main/neovim
+  depends:
+    - scoop
+
+linux|darwin:
+  installs:
+    cmd: brew install neovim
+  depends:
+    - brew
+  links:
+    nvim: ~/.config/nvim

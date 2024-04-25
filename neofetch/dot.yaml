@@ -1,0 +1,6 @@
+windows:
+  installs: false
+
+linux|darwin:
+  links:
+    config.conf: ~/.config/neofetch/config.conf

@@ -4,7 +4,7 @@ global:
 
 windows:
   installs:
-    cmd: >-
+    cmd: |
       scoop install starship
       Add-Content $PROFILE "`nInvoke-Expression (&starship init powershell)"
     depends:
@@ -13,8 +13,8 @@ windows:
 
 linux|darwin:
   installs:
-    cmd: >-
+    cmd: |
       curl -sS https://starship.rs/install.sh | sh
       echo 'eval "$(starship init zsh)"' >> ~/.zshrc
-#    depends:
-#      - zsh
+    depends:
+      - zsh

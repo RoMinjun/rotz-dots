@@ -1,0 +1,25 @@
+{
+  "prefs": {
+    "ChangelogVersions": "{\"v0.2024.03.05.08.02.stable_00\":true,\"v0.2024.03.05.08.02.stable_01\":true,\"v0.2024.03.12.08.02.stable_01\":true,\"v0.2024.03.12.08.02.stable_02\":true,\"v0.2024.03.19.08.01.stable_01\":true,\"v0.2024.03.26.08.02.stable_02\":true,\"v0.2024.04.09.08.01.stable_01\":true}",
+    "ShouldDimInactivePanes": "true",
+    "FontSize": "15.0",
+    "CrashReportingEnabled": "false",
+    "InputMode": "\"PinnedToBottom\"",
+    "AutosuggestionAcceptedCount": "2",
+    "HonorPS1": "true",
+    "HasAutoOpenedWelcomeFolder": "true",
+    "Theme": "\"Dracula\"",
+    "EmacsBindingsBannerState": "\"Dismissed\"",
+    "Shortcuts": "true",
+    "WelcomeTipsFeaturesUsed": "[{\"Action\":\"SaveNewLaunchConfig\"},{\"Hint\":\"BlockAction\"},{\"Action\":\"WarpAI\"},{\"Action\":\"CommandSearch\"},{\"Action\":\"ThemePicker\"},{\"Action\":\"AiCommandSearch\"},{\"Hint\":\"BlockSelect\"},{\"Action\":\"OpenWarpDrive\"},{\"Action\":\"CommandPalette\"},{\"Hint\":\"CreateBlock\"},{\"Action\":\"SplitPane\"}]",
+    "SystemTheme": "false",
+    "AliasExpansionBannerSeen": "true",
+    "Notifications": "{\"mode\":\"Enabled\",\"is_long_running_enabled\":true,\"long_running_threshold\":{\"secs\":30,\"nanos\":0},\"is_password_prompt_enabled\":true}",
+    "TelemetryEnabled": "false",
+    "ExperimentId": "ed753021-865e-465a-a7c1-13a3368d8c3c",
+    "ReceivedReferralTheme": "\"Inactive\"",
+    "AIAssistantRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":4,\"next_refresh_time\":\"2024-04-13T22:06:55.489751Z\"}",
+    "Spacing": "\"Normal\"",
+    "WelcomeTipsCompleted": "true"
+  }
+}

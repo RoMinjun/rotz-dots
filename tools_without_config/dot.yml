@@ -1,0 +1,27 @@
+windows:
+  installs:
+    cmd: >-
+      scoop install
+      nonportable/notepads-np
+      main/python
+      extras/spotify
+      extras/powertoys
+      extras/bitwarden
+      extras/winrar
+      extras/pulsar
+      extras/sublime-text
+      extras/discord
+      extras/stremio
+      extras/vlc
+      extras/qbittorrent-enhanced
+      extras/obs-studio
+      extras/translucenttb
+      extras/eartrumpet
+      extras/quicklook
+      main/git
+      extras/cpu-z
+  depends:
+    - scoop
+
+linux|darwin:
+  installs: false

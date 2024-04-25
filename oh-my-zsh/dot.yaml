@@ -1,0 +1,8 @@
+windows:
+  installs: false
+
+linux|darwin:
+  installs:
+    cmd: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  depends:
+    - zsh

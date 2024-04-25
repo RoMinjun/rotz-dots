@@ -1,0 +1,15 @@
+windows:
+  installs:
+    cmd: |
+      scoop bucket add nerd-fonts
+      scoop install Hack
+    depends:
+      - scoop
+
+linux|darwin:
+  installs:
+    cmd: |
+      brew tap homebrew/cask-fonts
+      brew install --cask font-hack-nerd-font
+    depends:
+      - brew

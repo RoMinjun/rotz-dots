@@ -1,0 +1,8 @@
+windows:
+  installs:
+    cmd: scoop install nonportable/equalizer-apo-np
+  depends:
+    - scoop
+
+linux|darwin:
+  installs: false

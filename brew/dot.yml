@@ -1,7 +1,0 @@
-windows:
-  installs: false
-
-linux|darwin:
-  installs:
-    cmd: >-
-      cd ~/.local/share/fonts

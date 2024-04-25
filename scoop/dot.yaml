@@ -1,10 +1,9 @@
 windows:
   installs:
-    cmd: >-
+    cmd: |
       Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
       irm get-scoop.sh | iex
-      scoop bucket add extras
-      scoop bucket add main
+      scoop bucket add extras main nonportable
 
 linux|darwin:
   installs: false

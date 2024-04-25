@@ -1,0 +1,6 @@
+windows:
+  installs: false
+
+linux|darwin:
+  links:
+    .tmux: ~/.tmux

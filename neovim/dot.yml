@@ -1,8 +1,0 @@
-windows:
-  installs:
-    cmd: scoop install neovim
-  depends:
-    - scoop
-
-linux|darwin:
-  installs: false

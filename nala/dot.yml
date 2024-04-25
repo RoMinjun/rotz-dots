@@ -1,3 +1,0 @@
-linux|darwin:
-  installs:
-    cmd: apt-get install nala -y

@@ -1,15 +1,12 @@
 Out-Null
-Invoke-Expression (&starship init powershell)
 Import-Module PSReadLine
 Import-Module Terminal-Icons
 Set-PSReadLineOption -PredictionSource History
 
 ### Aliases
-New-Alias -Name node -Value node.exe
 New-Alias -Name nf -Value neofetch
 
 ## GIT
-
 
 ### Functions
 function off

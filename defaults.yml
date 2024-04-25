@@ -4,4 +4,4 @@ windows:
 
 linux|darwin:
   installs:
-    cmd: apt-get install {{ name }} -y
+    cmd: sudo apt-get install {{ name }} -y

@@ -1,0 +1,13 @@
+windows:
+  installs:
+    cmd: scoop install obsidian
+  depends:
+    - scoop
+
+linux|darwin:
+  installs:
+    cmd: |
+      flatpak install flathub md.obsidian.Obsidian
+      flatpak run md.obsidian.Obsidian
+  depends:
+    - flatpak

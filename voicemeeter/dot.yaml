@@ -1,0 +1,9 @@
+windows:
+  installs:
+    cmd: |
+      scoop bucket add nonportable
+      scoop install nonportable/voicemeeter-banana-np
+      iwr -uri https://raw.githubusercontent.com/RoMinjun/voicemeeterfix/main/voicemeeterfix.ps1 -OutFile $env:USERPROFILE\Desktop\voicemeeterfix.ps1 -Verbose
+
+linux|darwin:
+  installs: false

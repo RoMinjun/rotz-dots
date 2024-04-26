@@ -1,4 +1,3 @@
-# rotz-dots
 # Dotfiles
 
 This repo uses [rotz] to bootstrap and manage the configuration files

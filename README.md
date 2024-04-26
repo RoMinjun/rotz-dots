@@ -17,6 +17,7 @@ Currently [rotz] requires [git] to be installed as a pre-requisite.
    release](https://github.com/volllly/rotz/releases/latest) for your platform.
    - Homebrew via [volllly/tap](https://github.com/volllly/homebrew-tap): `brew tap volllly/tap` then `brew install rotz`
    - [Windows](https://github.com/volllly/rotz/releases/latest/download/rotz-x86_64-pc-windows-msvc.zip)
+2. For windows, install [Visual 2015 C++](https://www.microsoft.com/en-us/download/details.aspx?id=52685)
 2. Run `rotz clone git@github.com:RoMinjun/rotz-dots.git` 
 
 ## Usage

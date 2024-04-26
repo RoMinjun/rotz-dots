@@ -1,0 +1,280 @@
+{
+  "main": {
+    "id": "a615a289a7a033d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "22fe5b43f50e2ace",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5a9d8870d0b8008",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/bmc-startitup.md"
+              }
+            }
+          },
+          {
+            "id": "5857b7991a734467",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Excalidraw/prototype_agenda_sidebar.excalidraw.png"
+              }
+            }
+          },
+          {
+            "id": "d013c9806150c31c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/bmc-startitup.md"
+              }
+            }
+          },
+          {
+            "id": "4b218e0bf83f2ea2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/prototype_login.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "f1ee79a309726557",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Excalidraw/prototype_agenda_page.excalidraw.png"
+              }
+            }
+          },
+          {
+            "id": "5cfe03f12107b81a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/prototype_sidebar_appointment_details.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "7f810aa755718b67",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/sidebar_occupation.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "bbbcd89a45d66a7c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/sidebar_caseload.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "e87a5a51e5b15c16",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/close-sidebar.excalidraw.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0f08ad5ac0e41c95",
+    "type": "split",
+    "children": [
+      {
+        "id": "e91921db4a80d107",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a816d357da1c3c4f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e035ae36fb4e57ec",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5b0a4196b712175b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 263
+  },
+  "right": {
+    "id": "72b58a4b906f0d67",
+    "type": "split",
+    "children": [
+      {
+        "id": "d44f54cec076e951",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7810607b849de923",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Excalidraw/bmc-startitup.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8113a7ed34c297a4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Excalidraw/bmc-startitup.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4b0b445a45322a74",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "968f83250b7d9a03",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Excalidraw/bmc-startitup.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "file-cleaner-redux:Clean files": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "c5a9d8870d0b8008",
+  "lastOpenFiles": [
+    "J2/K3/StartITUp/~$Presentatie-StartItUp-RK.pptx",
+    "J2/K3/StartITUp/ppt87FC.tmp",
+    "J2/K3/StartITUp/pptD109.tmp",
+    "J2/K3/StartITUp/ppt302F.tmp",
+    "Excalidraw/prototype_login.excalidraw.md",
+    "J2/K3/StartITUp/~WRL0684.tmp",
+    "J2/K3/StartITUp/~WRD0637.tmp",
+    "J2/K3/StartITUp/pptFE71.tmp",
+    "Excalidraw/bmc-startitup.md",
+    "Excalidraw/bmc-startitup.png",
+    "Excalidraw/prototype_client_record.excalidraw.md",
+    "Excalidraw/prototype_agenda_page.excalidraw.png",
+    "Excalidraw/close-sidebar.excalidraw.md",
+    "Excalidraw/sidebar_caseload.excalidraw.md",
+    "Excalidraw/sidebar_occupation.excalidraw.md",
+    "Excalidraw/prototype_sidebar_appointment_details.excalidraw.md",
+    "Excalidraw/prototype_agenda_page.excalidraw.md",
+    "Excalidraw/prototype_agenda_sidebar.excalidraw.png",
+    "Excalidraw/prototype_client_record.excalidraw.png",
+    "Excalidraw/prototype_agenda_sidebar.excalidraw.md",
+    "J2/K3/StartITUp/~WRL0074.tmp",
+    "J2/K3/StartITUp/~WRD0023.tmp",
+    "J2/K3/StartITUp/~WRL2494.tmp",
+    "J2/K3/StartITUp/~WRD2440.tmp",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Obsidian/Attachments/Pasted Image 20240411183122_543.png",
+    "Obsidian/Attachments/Pasted Image 20240411183028_343.png",
+    "Obsidian/Attachments/Pasted Image 20240411182543_316.png",
+    "Obsidian/Attachments/Pasted Image 20240411182513_313.png",
+    "Obsidian/Attachments/Pasted Image 20240411181513_310.png",
+    "Obsidian/Attachments/Pasted Image 20240411181302_253.png",
+    "Untitled.canvas",
+    "J2/K3/StartITUp/Untitled.md",
+    "J2/K3/AI/W4/Opdrachten.md",
+    "J2/K3/AI/W5/W5 - Les.md",
+    "J2/K3/AI/W3/Opdrachten.md",
+    "J2/K3/AI/W6/Notities.md",
+    "J2/K2/PHC/W4/E4 - Azure.md",
+    "J2/K2/PHC/W4/Theorie Azure & Microsoft 365.md",
+    "J2/K2/PHC/W7/W7 Theorie.md",
+    "J2/K2/TBM/Module informatie.md",
+    "J2/K2/TBM/W1/Exercise 1.md",
+    "J2/K2/TBM/W5/E5 - Build and Configure a CI-CD Server.md",
+    "J2/K2/TBM/W3/E3-1 DEV.md",
+    "J2/K2/TBM/W2/Exercise 2.md",
+    "J2/K2/TBM/W4/W4L1 - Theorie.md"
+  ]
+}

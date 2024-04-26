@@ -1,0 +1,16 @@
+{
+  "deletionDestination": "system",
+  "excludeInclude": 0,
+  "excludedFolders": [
+    "J2/*",
+    "J1/*"
+  ],
+  "attachmentExtensions": [
+    "jpg",
+    "png"
+  ],
+  "deletionConfirmation": true,
+  "runOnStartup": true,
+  "removeFolders": false,
+  "ignoredFrontmatter": []
+}

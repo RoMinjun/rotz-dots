@@ -1,4 +1,6 @@
 windows:
+  installs:
+    cmd: scoop install main/pwsh
   links:
     Microsoft.PowerShell_profile.ps1: $PROFILE
 

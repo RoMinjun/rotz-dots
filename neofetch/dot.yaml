@@ -1,6 +1,11 @@
-windows:
-  installs: false
-
-linux|darwin:
+global:
   links:
     config.conf: ~/.config/neofetch/config.conf
+
+windows:
+  installs:
+    cmd: scoop install main/neofetch
+  depends:
+    - scoop
+
+linux|darwin: 

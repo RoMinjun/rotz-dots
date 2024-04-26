@@ -1,0 +1,174 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "Status": {
+          "options": [
+            "**To-Do**",
+            "**Doing**",
+            "**Done**",
+            "**Backlog**"
+          ],
+          "richText": true
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "J2/K2",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "columns": {
+              "**Backlog**": {
+                "weight": 0
+              },
+              "**To-Do**": {
+                "weight": 1
+              },
+              "**Doing**": {
+                "weight": 2
+              },
+              "**Done**": {
+                "weight": 3
+              }
+            },
+            "includeFields": [
+              "Current Exercise nr.",
+              "Module",
+              "Due date",
+              "Status"
+            ],
+            "groupByField": "Status",
+            "columnWidth": 400
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "Exercise?",
+                "operator": "is-checked",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#4400ff",
+                "condition": {
+                  "field": "Module",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"Public & Hybrid Cloud\"]"
+                }
+              },
+              {
+                "color": "#fe86aa",
+                "condition": {
+                  "field": "Module",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"Technical Management & Monitoring\"]"
+                }
+              },
+              {
+                "color": "#bc9ffe",
+                "condition": {
+                  "field": "Module",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"Project-based Exploratory Design\"]"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "name",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "f2a8870c-598e-4b9e-8008-6f5ad9c28c67",
+          "name": "Kanban Board",
+          "type": "board"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "width": 416,
+                "hide": true
+              },
+              "name": {
+                "width": 291
+              },
+              "Due date": {
+                "width": 208,
+                "hide": false
+              },
+              "Exercise?": {
+                "hide": false
+              },
+              "Status": {
+                "hide": false
+              }
+            },
+            "orderFields": [
+              "name",
+              "Module",
+              "Status",
+              "Due date",
+              "Exercise?"
+            ]
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "Exercise?",
+                "operator": "is-checked",
+                "enabled": false
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "6a69401c-5f57-453d-bcaf-44cce46d8157",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "33ec0b06-3771-403f-a8fb-759dea56f9da",
+      "name": "S3 Q2"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [
+      {
+        "project": "33ec0b06-3771-403f-a8fb-759dea56f9da",
+        "view": "f2a8870c-598e-4b9e-8008-6f5ad9c28c67"
+      }
+    ],
+    "linkBehavior": "open-editor"
+  }
+}

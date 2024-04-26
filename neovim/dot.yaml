@@ -3,7 +3,9 @@ windows:
     cmd: scoop install main/neovim
   depends:
     - scoop
-
+  links:
+    nvim: ~/AppData/Local/nvim
+    
 linux|darwin:
   installs:
     cmd: brew install neovim

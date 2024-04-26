@@ -3,6 +3,6 @@ windows:
 
 linux|darwin:
   installs:
-    cmd: apt-get install htop -y
+    cmd: sudo apt-get install htop -y
   links:
     htoprc: ~/.config/htop/htoprc

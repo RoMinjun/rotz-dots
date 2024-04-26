@@ -4,3 +4,6 @@ windows:
 linux|darwin:
   links:
     .tmux: ~/.tmux
+  depends:
+    - zsh
+    - oh-my-zsh

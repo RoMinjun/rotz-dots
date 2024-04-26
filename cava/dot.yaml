@@ -4,7 +4,7 @@ windows:
 linux|darwin:
   installs:
     cmd: >-
-      sudo apt install
+      sudo apt-get install
       build-essential
       libfftw3-dev
       libasound2-dev
@@ -19,6 +19,6 @@ linux|darwin:
       libpipewire-0.3-dev
       libjack-jackd2-dev
       pkgconf
-      cava
+      cava -y
   links:
     config: ~/.config/cava

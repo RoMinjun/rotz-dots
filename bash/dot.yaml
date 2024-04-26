@@ -2,5 +2,6 @@ windows:
   installs: false
 
 linux|darwin:
+  installs: false
   links:
     .bashrc: ~/.bashrc

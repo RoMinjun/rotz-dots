@@ -1,0 +1,10 @@
+windows:
+  installs: false
+
+linux|darwin:
+  installs:
+    cmd: sudo apt-get install kitty
+  links:
+    kitty: ~/.config/kitty
+  depends:
+    - fonts

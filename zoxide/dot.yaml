@@ -1,0 +1,18 @@
+windows:
+  installs:
+    cmd: |
+      scoop install zoxide
+      Add-Content $PROFILE "`nInvoke-Expression (& { (zoxide init powershell | Out-String) })"
+  depends:
+    - powershell
+    - scoop
+
+linux|darwin:
+  installs:
+    cmd: |
+      brew install zoxide
+      echo 'eval "$(zoxide init zsh)"' >> ~/.zshrc
+  depends:
+    - brew
+    - zsh
+    - oh-my-zsh

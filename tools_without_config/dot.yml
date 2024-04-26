@@ -6,7 +6,6 @@ windows:
       main/python
       extras/spotify
       extras/powertoys
-      extras/bitwarden
       extras/winrar
       extras/pulsar
       extras/sublime-text
@@ -20,8 +19,21 @@ windows:
       extras/quicklook
       main/git
       extras/cpu-z
+      charm-gum
+      && irm https://christitus.com/win | iex
+      && iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.ps1 | iex
+      && iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.ps1 | iex
   depends:
     - scoop
+    - powershell
 
 linux|darwin:
-  installs: false
+  installs:
+    cmd: |
+      brew install thefuck gum httpie
+      flatpak install flathub org.mozilla.firefox com.spotify.Client dev.pulsar_edit.Pulsar com.visualstudio.code io.appflowy.AppFlowy com.discordapp.Discord
+      curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
+      curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
+  depends:
+    - brew
+    - flatpak

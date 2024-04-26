@@ -1,6 +1,6 @@
 linux|darwin:
   installs:
-    cmd: apt-get install nala -y
+    cmd: sudo apt-get install nala -y
 
 windows:
   installs: false

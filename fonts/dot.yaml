@@ -9,7 +9,5 @@ windows:
 linux|darwin:
   installs:
     cmd: |
-      brew tap homebrew/cask-fonts
-      brew install --cask font-hack-nerd-font
-    depends:
-      - brew
+      mkdir -p ~/.local/share/fonts
+      curl -o /tmp/Hack.tar.xz -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/Hack.tar.xz && tar -xvf /tmp/Hack.tar.xz -C ~/.local/share/fonts/. --exclude='*.md' && rm /tmp/Hack.tar.xz

@@ -112,15 +112,6 @@ eval "$(starship init zsh)"
 eval "$(thefuck --alias FUCK)"
 eval "$(thefuck --alias fuck)"
 
-# Change to main git dir
-cd $HOME/school/github/HW-SAX/J2
-
-# set man reader
-export PAGER="gum pager"
-
-# load docker key
-(cat /home/rkleeman/.dockerlogin | d login -u rominjun --password-stdin) >/dev/null 2>&1
-
 # nf
 neofetch
 
@@ -130,14 +121,5 @@ export PATH="$HOME/.local/bin:$PATH"
 # spicetify
 export PATH=$PATH:/home/rkleeman/.spicetify
 
-export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
-
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/bin/terraform terraform
-
-# Rotz dotfiles
-export ROTZ_INSTALL="/home/rkleeman/.rotz"
-export PATH="$ROTZ_INSTALL/bin:$PATH"
-
-# zoxide
-eval "$(zoxide init zsh)"

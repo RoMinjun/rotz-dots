@@ -2,7 +2,7 @@ windows:
   installs:
     cmd: |
       scoop bucket add nerd-fonts
-      scoop install Hack
+      scoop install Hack-NF
     depends:
       - scoop
 

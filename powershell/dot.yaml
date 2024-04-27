@@ -2,7 +2,7 @@ windows:
   installs:
     cmd: scoop install main/pwsh
   links:
-    Microsoft.PowerShell_profile.ps1: $PROFILE
+    Microsoft.PowerShell_profile.ps1: ~/Documents/Microsoft.PowerShell_profile.ps1 
 
 linux|darwin:
   installs: false

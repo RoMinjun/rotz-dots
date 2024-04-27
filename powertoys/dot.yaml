@@ -1,6 +1,6 @@
 windows:
   installs:
-    cmd:
+    cmd: |
       scoop bucket add extras
       scoop install powertoys
   depends:

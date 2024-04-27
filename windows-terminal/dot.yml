@@ -5,7 +5,7 @@ windows:
     - scoop
     - fonts
   links:
-    settings.json: $HOME\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+    settings.json: ~/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json
 
 linux|darwin:
   installs: false

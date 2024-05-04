@@ -4,7 +4,7 @@ windows:
   depends:
     - scoop
   links:
-    nvim: ~/AppData/Local/nvim
+    nvim: ~\AppData\Local\nvim 
     
 linux|darwin:
   installs:

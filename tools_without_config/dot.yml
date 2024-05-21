@@ -31,7 +31,7 @@ linux|darwin:
   installs:
     cmd: |
       brew install thefuck gum httpie
-      flatpak install flathub org.mozilla.firefox com.spotify.Client io.appflowy.AppFlowy one.ablaze.floorp io.github.elevenhsoft.WebApps com.discordapp.Discord
+        flatpak install flathub org.mozilla.firefox com.spotify.Client io.appflowy.AppFlowy one.ablaze.floorp io.github.elevenhsoft.WebApps com.discordapp.Discord -y
       sudo add-apt-repository ppa:chronobserver/betterdiscordctl
       sudo apt-get update
       sudo apt install betterdiscordctl -y

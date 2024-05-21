@@ -1,2 +1,3 @@
-shell_command: pwsh -ExecutionPolicy Bypass -NoProfile -C {{ quote "" cmd }}
+#shell_command: pwsh -ExecutionPolicy Bypass -NoProfile -C {{ quote "" cmd }}
+shell_command: bash -c {{ quote "" cmd }}
 link_type: Hard 

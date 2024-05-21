@@ -3,7 +3,7 @@ windows:
 
 linux|darwin:
   installs:
-    cmd: sudo apt-get install kitty
+    cmd: sudo apt-get install kitty -y
   links:
     kitty: ~/.config/kitty
   depends:

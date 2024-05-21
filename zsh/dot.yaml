@@ -5,6 +5,6 @@ linux|darwin:
   installs:
     cmd: |
       sudo apt-get install zsh -y
-      chsh -s $(which zsh)
+      sudo chsh -s $(which zsh)
   links:
     .zshrc: ~/.zshrc

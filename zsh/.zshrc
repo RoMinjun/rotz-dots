@@ -109,11 +109,13 @@ source $ZSH/oh-my-zsh.sh
 eval "$(starship init zsh)"
 
 # THEFUCK
-eval "$(thefuck --alias FUCK)"
 eval "$(thefuck --alias fuck)"
 
 # nf
 neofetch
+
+# rotz
+eval "$(rotz init zsh)"
 
 # fetchcord
 export PATH="$HOME/.local/bin:$PATH"
@@ -123,3 +125,5 @@ export PATH=$PATH:/home/rkleeman/.spicetify
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/bin/terraform terraform
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"

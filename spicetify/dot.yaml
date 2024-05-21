@@ -11,8 +11,7 @@ windows:
 linux|darwin:
   installs:
     cmd: |
-      curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
+      brew install spicetify-cli
       sed -i 's|spotify_path           =|spotify_path           = /var/lib/flatpak/app/com.spotify.Client/x86_64/stable/active/files/extra/share/spotify/|g' ~/.config/spicetify/config-xpui.ini
-      curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
   depends:
     - tools_without_config

@@ -14,7 +14,7 @@ windows:
 linux|darwin:
   installs:
     cmd: |
-      curl -sS https://starship.rs/install.sh | sh
+      brew install starship
       echo 'eval "$(starship init zsh)"' >> ~/.zshrc
     depends:
       - zsh

@@ -7,7 +7,6 @@ windows:
 linux|darwin:
   installs:
     cmd: |
-      flatpak install flathub md.obsidian.Obsidian
-      flatpak run md.obsidian.Obsidian
+      flatpak install flathub md.obsidian.Obsidian -y
   depends:
     - flatpak

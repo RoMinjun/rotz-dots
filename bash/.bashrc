@@ -142,3 +142,5 @@ sudo() {
 EDITOR=nvim
 
 complete -C /usr/bin/terraform terraform
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"

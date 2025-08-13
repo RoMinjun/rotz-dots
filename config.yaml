@@ -1,2 +1,7 @@
-shell_command: pwsh -ExecutionPolicy Bypass -NoProfile -C {{ quote "" cmd }}
-link_type: Hard 
+windows:
+  shell_command: pwsh -ExecutionPolicy Bypass -NoProfile -C {{ quote "" cmd }}
+  link_type: Hard
+
+linux:
+  shell_command: bash -c {{ quote "" cmd }}
+  link_type: Hard

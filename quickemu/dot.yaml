@@ -1,0 +1,6 @@
+linux|darwin:
+  installs:
+    cmd: |
+      sudo apt-add-repository ppa:flexiondotorg/quickemu ppa:yannick-mauray/quickgui
+      sudo apt update
+      sudo apt install quickemu quickgui -y
